@@ -2,9 +2,8 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
-    "jest/globals": true,
   },
-  extends: ["airbnb-base", "prettier"],
+  extends: ["airbnb-base", "prettier", "plugin:css-modules/recommended"],
   parserOptions: {
     ecmaVersion: 12,
     sourceType: "module",
@@ -27,5 +26,5 @@ module.exports = {
     "no-param-reassign": "warn",
     "import/extensions": "warn",
   },
-  plugins: ["jest"],
+  plugins: ["css-modules"],
 };
