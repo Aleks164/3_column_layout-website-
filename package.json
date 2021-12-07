@@ -1,24 +1,24 @@
 {
   "name": "newproj",
   "version": "1.0.0",
-  "description": "2try",
-  "main": "index.js",
+  "description": "HTML_CSS",
+  "main": "src/index_flex.html",
   "scripts": {
     "test": "jest",
-    "lint": "eslint HW-5-lect",
-    "lint:fix": "eslint HW-5-lect --fix",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
     "prepare": "husky install"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Aleks164/HW.git"
+    "url": "git+https://github.com/Aleks164/3_column_layout-website-.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Aleks164/HW/issues"
+    "url": "https://github.com/Aleks164/3_column_layout-website-/issues"
   },
-  "homepage": "https://github.com/Aleks164/HW#readme",
+  "homepage": "https://github.com/Aleks164/3_column_layout-website-#readme",
   "dependencies": {
     "lodash": "^4.17.21"
   },
@@ -32,12 +32,13 @@
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-css-modules": "^2.11.0",
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-jest": "^25.2.2",
     "husky": "^7.0.4",
     "jest": "^27.3.1",
-    "lint-staged": "11.2.5",
-    "prettier": "2.4.1"
+    "lint-staged": "^11.2.5",
+    "prettier": "^2.4.1"
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix",
