@@ -1,24 +1,24 @@
 {
   "name": "newproj",
   "version": "1.0.0",
-  "description": "2try",
+  "description": "HTML_CSS",
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "lint": "eslint HW-5-lect",
-    "lint:fix": "eslint HW-5-lect --fix",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
     "prepare": "husky install"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Aleks164/HW.git"
+    "url": "git+https://github.com/Aleks164/3_column_layout-website-.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Aleks164/HW/issues"
+    "url": "https://github.com/Aleks164/3_column_layout-website-/issues"
   },
-  "homepage": "https://github.com/Aleks164/HW#readme",
+  "homepage": "https://github.com/Aleks164/3_column_layout-website-#readme",
   "dependencies": {
     "lodash": "^4.17.21"
   },
